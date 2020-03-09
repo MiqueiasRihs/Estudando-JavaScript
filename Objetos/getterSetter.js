@@ -1,5 +1,5 @@
 const Sequencia = {
-    _valor: 1, //Convençao entre o pessoa de TI, é para avisar que essa variavel é para ser usada internamente.
+    _valor: 1, //Convençao entre o pessoal de TI, é para avisar que essa variavel é para ser usada internamente.
     get valor() { return this._valor++},
     set valor(valor) {
         if(valor > this._valor) {
