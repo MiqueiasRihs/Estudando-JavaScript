@@ -3,6 +3,30 @@ function clicou(){
 
 }
 
+function redirecionar(){
+    window.open("https://miqueias.dev/")
+}
+
+function trocar(elemento){
+    // document.getElementById('mousemove').innerHTML = "Obrigado por passar"
+    // alert("trocar texto")
+    elemento.innerHTML = "Obrigado por passar"
+}
+
+function voltar(elemento){
+    // document.getElementById("mouseover").innerHTML = "Passe o mause aqui"
+    elemento.innerHTML = "Passe o mause aqui"
+
+}
+
+function load(){
+    alert("Pagina carregada")
+}
+
+function funcaochange(elemento){
+    console.log(elemento.value)
+}
+
 // function soma(n1, n2) {
 //     return n1 + n2
 // }
